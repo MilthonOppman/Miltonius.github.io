@@ -1,0 +1,15 @@
+import{S as W,i as X,s as Y,k as f,q as E,a as A,l as h,m as w,r as V,h as a,c as G,R as M,n as s,b as x,D as c,B,J as Z}from"../../../chunks/index-2bb69101.js";function K(d,l,n){const g=d.slice();return g[1]=l[n],g}function N(d){let l,n,g;return{c(){l=f("div"),n=f("img"),this.h()},l(o){l=h(o,"DIV",{class:!0});var m=w(l);n=h(m,"IMG",{src:!0,alt:!0,class:!0}),m.forEach(a),this.h()},h(){M(n.src,g=d[1])||s(n,"src",g),s(n,"alt","flexbox vsgridbox"),s(n,"class","svelte-1wulgzj"),s(l,"class","image-wrapper svelte-1wulgzj")},m(o,m){x(o,l,m),c(l,n)},p:B,d(o){o&&a(l)}}}function ee(d){let l,n,g,o,m,D,r,k,p,C,T,I,_,H,q,j,b,J,S,P,y,z=d[0],i=[];for(let e=0;e<z.length;e+=1)i[e]=N(K(d,z,e));return{c(){l=f("title"),n=E("Photo App"),g=E(` /*Titeln som visas vanligtvis i webbläsarens\r
+titelfält/fliknamn*/\r
+`),o=f("h1"),m=E("Photo App"),D=E(`\r
+\r
+/*Vår bild behöver en bildaddress och även en text som beskriver vad som\r
+bilden föreställer ifall det skulle bli något fel vid inladdningen av\r
+bilden eller för att öka tillgängligheten av sidan.*/\r
+`),r=f("div"),k=f("div"),p=f("img"),T=A(),I=f("div"),_=f("img"),q=A(),j=f("div"),b=f("img"),S=A();for(let e=0;e<i.length;e+=1)i[e].c();P=A(),y=E("¨"),this.h()},l(e){l=h(e,"TITLE",{});var v=w(l);n=V(v,"Photo App"),v.forEach(a),g=V(e,` /*Titeln som visas vanligtvis i webbläsarens\r
+titelfält/fliknamn*/\r
+`),o=h(e,"H1",{});var t=w(o);m=V(t,"Photo App"),t.forEach(a),D=V(e,`\r
+\r
+/*Vår bild behöver en bildaddress och även en text som beskriver vad som\r
+bilden föreställer ifall det skulle bli något fel vid inladdningen av\r
+bilden eller för att öka tillgängligheten av sidan.*/\r
+`),r=h(e,"DIV",{class:!0});var u=w(r);k=h(u,"DIV",{class:!0});var L=w(k);p=h(L,"IMG",{src:!0,alt:!0,class:!0}),L.forEach(a),T=G(u),I=h(u,"DIV",{class:!0});var R=w(I);_=h(R,"IMG",{src:!0,alt:!0,class:!0}),R.forEach(a),q=G(u),j=h(u,"DIV",{class:!0});var F=w(j);b=h(F,"IMG",{src:!0,alt:!0,class:!0}),F.forEach(a),S=G(u);for(let $=0;$<i.length;$+=1)i[$].l(u);P=G(u),u.forEach(a),y=V(e,"¨"),this.h()},h(){M(p.src,C=d[0][0])||s(p,"src",C),s(p,"alt","flexbox rules"),s(p,"class","svelte-1wulgzj"),s(k,"class","image-wrapper svelte-1wulgzj"),M(_.src,H=d[0][1])||s(_,"src",H),s(_,"alt","flexbox rules"),s(_,"class","svelte-1wulgzj"),s(I,"class","image-wrapper svelte-1wulgzj"),M(b.src,J=d[0][2])||s(b,"src",J),s(b,"alt","flexbox vsgridbox"),s(b,"class","svelte-1wulgzj"),s(j,"class","image-wrapper svelte-1wulgzj"),s(r,"class","photos svelte-1wulgzj")},m(e,v){x(e,l,v),c(l,n),x(e,g,v),x(e,o,v),c(o,m),x(e,D,v),x(e,r,v),c(r,k),c(k,p),c(r,T),c(r,I),c(I,_),c(r,q),c(r,j),c(j,b),c(r,S);for(let t=0;t<i.length;t+=1)i[t].m(r,null);c(r,P),x(e,y,v)},p(e,[v]){if(v&1){z=e[0];let t;for(t=0;t<z.length;t+=1){const u=K(e,z,t);i[t]?i[t].p(u,v):(i[t]=N(u),i[t].c(),i[t].m(r,P))}for(;t<i.length;t+=1)i[t].d(1);i.length=z.length}},i:B,o:B,d(e){e&&a(l),e&&a(g),e&&a(o),e&&a(D),e&&a(r),Z(i,e),e&&a(y)}}}let O="https://picsum.photos/id/70/367/267",Q="https://picsum.photos/id/88/367/267",U="https://picsum.photos/id/93/367/267";function le(d){return[[O,Q,U,O,Q,U]]}class se extends W{constructor(l){super(),X(this,l,le,ee,Y,{})}}export{se as default};

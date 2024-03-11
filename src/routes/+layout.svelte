@@ -14,6 +14,8 @@
     >GitHub</a
   >
   <a href="/photoapp">Photo App</a>
+  <a href="/register">Register</a>
+  <a href="/login">Login</a>
 </nav>
 
 <hr />
