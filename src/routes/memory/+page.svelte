@@ -28,7 +28,7 @@
       }
       cards = cards;
     } else {
-      alert("chill");
+      alert("chilla, ta de koool");
     }
   }
 </script>
@@ -51,6 +51,8 @@
       </div>
     {/each}
   </div>
+  <div class="red-box"></div>
+  <div class="blue-box"></div>
 </main>
 
 <style>
@@ -114,4 +116,17 @@
     -webkit-backface-visibility: hidden;
     position: absolute;
   }
+  .red-box, .blue-box {
+width: 100px;
+height: 100px;
+position: absolute;
+bottom : 0;
+}
+.red-box {
+background-color: red;
+z-index:1;
+}
+.blue-box {
+background-color: blue;
+}
 </style>
