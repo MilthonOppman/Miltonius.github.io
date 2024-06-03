@@ -16,7 +16,7 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [preprocess(), vitePreprocess(), mdsvex({
 		extensions: ['.md', '.svx'],
-		layout: { blog: './src/routes/blog/post.svelte' },
+		layout: { blog: './src/routes/(no-app)/blog/post.svelte' },
 	})],
 
 	kit: {

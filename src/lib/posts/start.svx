@@ -1,9 +1,14 @@
 ---
-title: Projektstart
-date: "2024-02-21"
-keywords: ["planning"]
+title: Inlägg 3
+date: "2024-05-13"
+keywords: ["adding tasks", "gallery"]
 ---
 
-Hello, I am _Post One._
+fortsättning på hemsidan
 
-**Nice to meet you!**
+**Jag har idag fixat nya hemsidor för varje artike som jag har
+och nästa steg är att fixa varje artikel. Jag använde mig av länkar för
+och min tidigare kod för att koppla varje artikel till dens egen 
+hem sida. Det hade kanske kunnat gått att göra på något annat sätt men
+nu valde jag att följa detta. Jag känner att jag måste lägga ner mer tid
+i arbetet och försöka fixa det lite snyggare.**

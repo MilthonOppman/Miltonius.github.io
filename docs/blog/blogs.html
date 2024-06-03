@@ -5,24 +5,26 @@
 		<link rel="icon" href="../favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-74ac176e.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-491ad27e.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-2bb69101.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-f91a23ce.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-7c1ede1d.js">
+		<link href="../_app/immutable/assets/_layout-c2308f58.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/app-2974a3a6.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-0244d028.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-9fc6de75.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-ac740c01.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-daa95627.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/control-f5b05b5f.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/parse-f0c618df.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-30e3de00.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_layout.svelte-776ad6f8.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_path_/_page.svelte-98bf84e6.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_path_/_page.js-cede37f1.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-c7670bba.js">
+		<link rel="modulepreload" href="../_app/immutable/components/layout.svelte-d69a2e01.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/(no-app)/_layout.svelte-6f054243.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/(no-app)/_layout.js-e992bf42.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-fca24c55.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/(no-app)/blog/_layout.svelte-814aa3f7.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/(no-app)/blog/_path_/_page.svelte-47eb37d5.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/(no-app)/blog/_path_/_page.js-8fad583c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-cee31b02.js">
 	</head>
-	<body>
-		<div style="display: contents">
+	<body data-theme="skeleton">
+		<div style="display: contents" class="h-full overflow-hidden">
 
 
 <nav><a href="/">Hem</a>
@@ -33,31 +35,53 @@
   <a href="/photoapp">Photo App</a>
   <a href="/register">Register</a>
   <a href="/login">Login</a>
-  <a href="/todo">Todo List</a></nav>
+  <a href="/todo">Todo List</a>
+  <a href="/chat">Chat</a>
+  <a href="/news">News</a></nav>
 
 <hr>
 
 <main class="container svelte-lj7r42">
 
 
-<article><h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-grey">Vecka 2</h1>
-  <p class="my-4 text-lg text-gray-500">Published: 2024-03-17</p>
-  <p>Laddat ner koden från git.</p>
-<p>Ändrat färgen och storleken på border för class “upgrades”:</p></article>
+<article><h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-grey">Inlägg 2</h1>
+  <p class="my-4 text-lg text-gray-500">Published: 2024-05-06</p>
+  <p>Har fixat en on click funktion i koden, vet inte exakt hur jag kommer att använda den men just
+så försvinner allt då man klickar på något. vill göra så att man går vidare
+till olika ställen beroende på vad man klickar på. Det är något för nästa gång.</p>
+<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">&#123;#if start_screen&#125;
+	&lt;div class=&quot;news-container&quot;&gt;
+		&#123;#each articles as article, i&#125;
+		&lt;div
+			on:click=&#123;() =&gt; &#123;
+			start_screen = false;
+			&#125;&#125;
+			on:keypress=&#123;() =&gt; &#123;
+			start_screen = false;
+			&#125;&#125;
+			
+			class =&quot;news&quot;
+		&gt;
+			&lt;img src=&#123;articles[i].picture&#125; alt=&quot;&quot; /&gt;
+			&lt;p&gt;&#123;articles[i].titel&#125;&lt;/p&gt;
+		&lt;/div&gt;
+		&#123;/each&#125;
+	&lt;/div&gt;
+&#123;/if&#125;</code><!-- HTML_TAG_END --></pre></article>
 </main>
 
 
-		<script type="module" data-sveltekit-hydrate="jtzp80">
-			import { start } from "../_app/immutable/start-491ad27e.js";
+		<script type="module" data-sveltekit-hydrate="1h3nx1l">
+			import { start } from "../_app/immutable/start-0244d028.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="jtzp80"]').parentNode,
-				version: "1711362773043",
+				target: document.querySelector('[data-sveltekit-hydrate="1h3nx1l"]').parentNode,
+				version: "1717401883971",
 				hydrate: {
-					node_ids: [0, 2, 7],
-					data: [null,null,null],
+					node_ids: [0, 3, 4, 21],
+					data: [null,null,null,null],
 					form: null
 				}
 			});

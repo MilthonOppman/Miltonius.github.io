@@ -1,10 +1,31 @@
 ---
-title: Vecka 2
-date: "2024-03-17"
+title: Inlägg 2
+date: "2024-05-06"
 keywords: ["localStorage", "points"]
 ---
 
-Laddat ner koden från git.
+Har fixat en on click funktion i koden, vet inte exakt hur jag kommer att använda den men just
+så försvinner allt då man klickar på något. vill göra så att man går vidare
+till olika ställen beroende på vad man klickar på. Det är något för nästa gång.
 
-
-Ändrat färgen och storleken på border för class "upgrades":
+````
+{#if start_screen}
+	<div class="news-container">
+		{#each articles as article, i}
+		<div
+			on:click={() => {
+			start_screen = false;
+			}}
+			on:keypress={() => {
+			start_screen = false;
+			}}
+			
+			class ="news"
+		>
+			<img src={articles[i].picture} alt="" />
+			<p>{articles[i].titel}</p>
+		</div>
+		{/each}
+	</div>
+{/if}
+````

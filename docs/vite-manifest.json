@@ -1,124 +1,591 @@
 {
-  "src/routes/blog/+layout.css": {
-    "file": "_app/immutable/assets/_layout-74ac176e.css",
-    "src": "src/routes/blog/+layout.css"
+  "src/routes/(app)/+layout.css": {
+    "file": "_app/immutable/assets/_layout-f5fc0750.css",
+    "src": "src/routes/(app)/+layout.css"
   },
-  "src/routes/login/+page.css": {
-    "file": "_app/immutable/assets/_page-d13e5e96.css",
-    "src": "src/routes/login/+page.css"
+  "src/routes/(app)/news/culture/brännboll/+page.css": {
+    "file": "_app/immutable/assets/_page-dd5aabba.css",
+    "src": "src/routes/(app)/news/culture/brännboll/+page.css"
   },
-  "src/routes/todo/+page.css": {
-    "file": "_app/immutable/assets/_page-156cb9cb.css",
-    "src": "src/routes/todo/+page.css"
-  },
-  "src/routes/scroll/+page.css": {
-    "file": "_app/immutable/assets/_page-1258dfd5.css",
-    "src": "src/routes/scroll/+page.css"
-  },
-  "src/routes/+page.css": {
+  "src/routes/(no-app)/+page.css": {
     "file": "_app/immutable/assets/_page-2dd67c11.css",
-    "src": "src/routes/+page.css"
+    "src": "src/routes/(no-app)/+page.css"
   },
-  "src/routes/photoapp/+page.css": {
+  "src/routes/(app)/news/+page.css": {
+    "file": "_app/immutable/assets/_page-5d9bf588.css",
+    "src": "src/routes/(app)/news/+page.css"
+  },
+  "src/routes/(app)/news/sport/Noah/+page.css": {
+    "file": "_app/immutable/assets/_page-6a24445f.css",
+    "src": "src/routes/(app)/news/sport/Noah/+page.css"
+  },
+  "src/routes/(app)/news/culture/+page.css": {
+    "file": "_app/immutable/assets/_page-e27a83c3.css",
+    "src": "src/routes/(app)/news/culture/+page.css"
+  },
+  "src/routes/(no-app)/blog/+layout.css": {
+    "file": "_app/immutable/assets/_layout-c2308f58.css",
+    "src": "src/routes/(no-app)/blog/+layout.css"
+  },
+  "src/routes/(app)/news/sport/+page.css": {
+    "file": "_app/immutable/assets/_page-df0db7a3.css",
+    "src": "src/routes/(app)/news/sport/+page.css"
+  },
+  "src/routes/(no-app)/photoapp/+page.css": {
     "file": "_app/immutable/assets/_page-14e960a4.css",
-    "src": "src/routes/photoapp/+page.css"
+    "src": "src/routes/(no-app)/photoapp/+page.css"
   },
-  "src/routes/memory/+page.css": {
-    "file": "_app/immutable/assets/_page-dd96f435.css",
-    "src": "src/routes/memory/+page.css"
+  "src/routes/(app)/news/local/betting/+page.css": {
+    "file": "_app/immutable/assets/_page-a58f71d2.css",
+    "src": "src/routes/(app)/news/local/betting/+page.css"
   },
-  "src/routes/register/+page.css": {
+  "src/routes/(no-app)/register/+page.css": {
     "file": "_app/immutable/assets/_page-c46c56a6.css",
-    "src": "src/routes/register/+page.css"
+    "src": "src/routes/(no-app)/register/+page.css"
   },
-  "src/routes/telltale/+page.css": {
+  "src/routes/(app)/news/local/wikipedia/+page.css": {
+    "file": "_app/immutable/assets/_page-8e9dd16c.css",
+    "src": "src/routes/(app)/news/local/wikipedia/+page.css"
+  },
+  "src/routes/(no-app)/telltale/+page.css": {
     "file": "_app/immutable/assets/_page-e52d8411.css",
-    "src": "src/routes/telltale/+page.css"
+    "src": "src/routes/(no-app)/telltale/+page.css"
   },
-  "src/routes/blog/[path]/+page.js": {
-    "file": "_app/immutable/modules/pages/blog/_path_/_page.js-cede37f1.js",
-    "src": "src/routes/blog/[path]/+page.js",
+  "src/routes/(no-app)/todo/+page.css": {
+    "file": "_app/immutable/assets/_page-156cb9cb.css",
+    "src": "src/routes/(no-app)/todo/+page.css"
+  },
+  "src/routes/(no-app)/chat/+page.css": {
+    "file": "_app/immutable/assets/_page-b620710a.css",
+    "src": "src/routes/(no-app)/chat/+page.css"
+  },
+  "src/routes/(no-app)/scroll/+page.css": {
+    "file": "_app/immutable/assets/_page-1258dfd5.css",
+    "src": "src/routes/(no-app)/scroll/+page.css"
+  },
+  "src/routes/(no-app)/login/+page.css": {
+    "file": "_app/immutable/assets/_page-d13e5e96.css",
+    "src": "src/routes/(no-app)/login/+page.css"
+  },
+  "src/routes/(no-app)/memory/+page.css": {
+    "file": "_app/immutable/assets/_page-c1ef00a9.css",
+    "src": "src/routes/(no-app)/memory/+page.css"
+  },
+  "app.css": {
+    "file": "_app/immutable/assets/app-2974a3a6.css",
+    "src": "app.css"
+  },
+  ".svelte-kit/generated/nodes/10.js": {
+    "file": "_app/immutable/chunks/10-11359f73.js",
+    "src": ".svelte-kit/generated/nodes/10.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/culture/maträtter/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/13.js": {
+    "file": "_app/immutable/chunks/13-56f26f10.js",
+    "src": ".svelte-kit/generated/nodes/13.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/local/pancakes/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-65019378.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/blog/+layout.svelte"
+    ]
+  },
+  "src/routes/(app)/+layout.js": {
+    "file": "_app/immutable/modules/pages/(app)/_layout.js-e992bf42.js",
+    "src": "src/routes/(app)/+layout.js",
+    "isEntry": true,
+    "imports": [
+      "__layout-da46b06b.js"
+    ]
+  },
+  "src/routes/(no-app)/blog/[path]/+page.js": {
+    "file": "_app/immutable/modules/pages/(no-app)/blog/_path_/_page.js-8fad583c.js",
+    "src": "src/routes/(no-app)/blog/[path]/+page.js",
     "isEntry": true,
     "imports": [
       "_preload-helper-41c905a7.js",
-      "__page-c7670bba.js"
+      "__page-cee31b02.js"
     ]
   },
-  "src/routes/search/[category]/+page.js": {
-    "file": "_app/immutable/modules/pages/search/_category_/_page.js-a628e7ed.js",
-    "src": "src/routes/search/[category]/+page.js",
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-8ce04d84.js",
+    "src": ".svelte-kit/generated/nodes/5.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/search/+layout.svelte"
+    ]
+  },
+  "_control-f5b05b5f.js": {
+    "file": "_app/immutable/chunks/control-f5b05b5f.js"
+  },
+  "__page-80848ead.js": {
+    "file": "_app/immutable/chunks/_page-80848ead.js"
+  },
+  "_stores-9c30d0c6.js": {
+    "file": "_app/immutable/chunks/stores-9c30d0c6.js",
+    "imports": [
+      "_index-daa95627.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/26.js": {
+    "file": "_app/immutable/chunks/26-e114f445.js",
+    "src": ".svelte-kit/generated/nodes/26.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/register/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/29.js": {
+    "file": "_app/immutable/chunks/29-43a7852a.js",
+    "src": ".svelte-kit/generated/nodes/29.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-f8406e2a.js",
+      "src/routes/(no-app)/search/[category]/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/16.js": {
+    "file": "_app/immutable/chunks/16-044ea70a.js",
+    "src": ".svelte-kit/generated/nodes/16.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/sport/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/9.js": {
+    "file": "_app/immutable/chunks/9-29f15622.js",
+    "src": ".svelte-kit/generated/nodes/9.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/culture/brännboll/+page.svelte"
+    ]
+  },
+  "_parse-f0c618df.js": {
+    "file": "_app/immutable/chunks/parse-f0c618df.js"
+  },
+  "__layout-da46b06b.js": {
+    "file": "_app/immutable/chunks/_layout-da46b06b.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "_app/immutable/components/layout.svelte-d69a2e01.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  "src/routes/(no-app)/+layout.js": {
+    "file": "_app/immutable/modules/pages/(no-app)/_layout.js-e992bf42.js",
+    "src": "src/routes/(no-app)/+layout.js",
+    "isEntry": true,
+    "imports": [
+      "__layout-fca24c55.js"
+    ]
+  },
+  "src/routes/(no-app)/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/_page.svelte-a4c2f756.js",
+    "src": "src/routes/(no-app)/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-2dd67c11.css"
+    ]
+  },
+  "src/lib/posts/blogs.svx": {
+    "file": "_app/immutable/chunks/blogs-69d5f859.js",
+    "src": "src/lib/posts/blogs.svx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/31.js": {
+    "file": "_app/immutable/chunks/31-f83aa9d5.js",
+    "src": ".svelte-kit/generated/nodes/31.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/todo/+page.svelte"
+    ]
+  },
+  "src/routes/(no-app)/+layout.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/_layout.svelte-6f054243.js",
+    "src": "src/routes/(no-app)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/7.js": {
+    "file": "_app/immutable/chunks/7-d8f1fa93.js",
+    "src": ".svelte-kit/generated/nodes/7.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/+page.svelte"
+    ]
+  },
+  "src/routes/(no-app)/search/+layout.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/search/_layout.svelte-95a5571a.js",
+    "src": "src/routes/(no-app)/search/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/25.js": {
+    "file": "_app/immutable/chunks/25-625f3bb3.js",
+    "src": ".svelte-kit/generated/nodes/25.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/photoapp/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/18.js": {
+    "file": "_app/immutable/chunks/18-7076b596.js",
+    "src": ".svelte-kit/generated/nodes/18.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/sport/Valter Ibrahimovic/+page.svelte"
+    ]
+  },
+  "src/routes/(no-app)/search/[category]/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/search/_category_/_page.svelte-d5a8d164.js",
+    "src": "src/routes/(no-app)/search/[category]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/17.js": {
+    "file": "_app/immutable/chunks/17-7ea674d9.js",
+    "src": ".svelte-kit/generated/nodes/17.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/sport/Noah/+page.svelte"
+    ]
+  },
+  "__page-f8406e2a.js": {
+    "file": "_app/immutable/chunks/_page-f8406e2a.js",
+    "imports": [
+      "_control-f5b05b5f.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/27.js": {
+    "file": "_app/immutable/chunks/27-ce126354.js",
+    "src": ".svelte-kit/generated/nodes/27.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/scroll/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/8.js": {
+    "file": "_app/immutable/chunks/8-acc23936.js",
+    "src": ".svelte-kit/generated/nodes/8.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/culture/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/19.js": {
+    "file": "_app/immutable/chunks/19-5245230e.js",
+    "src": ".svelte-kit/generated/nodes/19.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/30.js": {
+    "file": "_app/immutable/chunks/30-5ea4ea4e.js",
+    "src": ".svelte-kit/generated/nodes/30.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/telltale/+page.svelte"
+    ]
+  },
+  "src/lib/posts/start.svx": {
+    "file": "_app/immutable/chunks/start-aac104a9.js",
+    "src": "src/lib/posts/start.svx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/28.js": {
+    "file": "_app/immutable/chunks/28-508089bc.js",
+    "src": ".svelte-kit/generated/nodes/28.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/search/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/23.js": {
+    "file": "_app/immutable/chunks/23-bbe9f68e.js",
+    "src": ".svelte-kit/generated/nodes/23.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/login/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/15.js": {
+    "file": "_app/immutable/chunks/15-01b7200f.js",
+    "src": ".svelte-kit/generated/nodes/15.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/local/wikipedia/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/11.js": {
+    "file": "_app/immutable/chunks/11-80d3e2fb.js",
+    "src": ".svelte-kit/generated/nodes/11.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/local/+page.svelte"
+    ]
+  },
+  "src/routes/(no-app)/blog/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/blog/_page.svelte-e4f4ec8f.js",
+    "src": "src/routes/(no-app)/blog/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/6.js": {
+    "file": "_app/immutable/chunks/6-43c70b75.js",
+    "src": ".svelte-kit/generated/nodes/6.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/search/[category]/+error.svelte"
+    ]
+  },
+  "src/routes/(app)/news/sport/Noah/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/sport/Noah/_page.svelte-a7ac3df6.js",
+    "src": "src/routes/(app)/news/sport/Noah/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-6a24445f.css"
+    ]
+  },
+  ".svelte-kit/generated/nodes/20.js": {
+    "file": "_app/immutable/chunks/20-51a6bee2.js",
+    "src": ".svelte-kit/generated/nodes/20.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-80848ead.js",
+      "src/routes/(no-app)/blog/+page.svelte"
+    ]
+  },
+  "_stores-a85adf0f.js": {
+    "file": "_app/immutable/chunks/stores-a85adf0f.js",
+    "imports": [
+      "_singletons-ac740c01.js"
+    ]
+  },
+  "src/routes/(no-app)/search/[category]/+page.js": {
+    "file": "_app/immutable/modules/pages/(no-app)/search/_category_/_page.js-a4172b4a.js",
+    "src": "src/routes/(no-app)/search/[category]/+page.js",
     "isEntry": true,
     "imports": [
       "__page-f8406e2a.js"
     ]
   },
-  ".svelte-kit/generated/nodes/12.js": {
-    "file": "_app/immutable/chunks/12-cee8b486.js",
-    "src": ".svelte-kit/generated/nodes/12.js",
-    "isDynamicEntry": true,
+  "_preload-helper-41c905a7.js": {
+    "file": "_app/immutable/chunks/preload-helper-41c905a7.js"
+  },
+  "src/routes/(no-app)/search/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/search/_page.svelte-a27411aa.js",
+    "src": "src/routes/(no-app)/search/+page.svelte",
+    "isEntry": true,
     "imports": [
-      "src/routes/register/+page.svelte"
+      "_index-9fc6de75.js"
+    ]
+  },
+  "src/routes/(no-app)/blog/[path]/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/blog/_path_/_page.svelte-47eb37d5.js",
+    "src": "src/routes/(no-app)/blog/[path]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  "src/routes/(app)/news/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/_page.svelte-7edd17b9.js",
+    "src": "src/routes/(app)/news/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-5d9bf588.css"
+    ]
+  },
+  "src/routes/(app)/news/local/pancakes/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/local/pancakes/_page.svelte-00f3a068.js",
+    "src": "src/routes/(app)/news/local/pancakes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-dd5aabba.css"
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-d78a1d2a.js",
+    "file": "_app/immutable/chunks/2-5e69ad23.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/blog/+layout.svelte"
+      "__layout-da46b06b.js",
+      "src/routes/(app)/+layout.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/13.js": {
-    "file": "_app/immutable/chunks/13-e9f3da70.js",
-    "src": ".svelte-kit/generated/nodes/13.js",
+  "src/lib/posts/post.svx": {
+    "file": "_app/immutable/chunks/post-d1dead49.js",
+    "src": "src/lib/posts/post.svx",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/scroll/+page.svelte"
+      "_index-9fc6de75.js"
     ]
   },
-  ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-5aad769d.js",
-    "src": ".svelte-kit/generated/nodes/5.js",
+  ".svelte-kit/generated/nodes/14.js": {
+    "file": "_app/immutable/chunks/14-6afc3b81.js",
+    "src": ".svelte-kit/generated/nodes/14.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/+page.svelte"
+      "src/routes/(app)/news/local/space/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/16.js": {
-    "file": "_app/immutable/chunks/16-04ac14d5.js",
-    "src": ".svelte-kit/generated/nodes/16.js",
-    "isDynamicEntry": true,
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-173eb07e.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
     "imports": [
-      "src/routes/telltale/+page.svelte"
+      "_index-9fc6de75.js",
+      "_stores-a85adf0f.js"
     ]
   },
-  ".svelte-kit/generated/nodes/8.js": {
-    "file": "_app/immutable/chunks/8-dadd548f.js",
-    "src": ".svelte-kit/generated/nodes/8.js",
-    "isDynamicEntry": true,
+  "_index-daa95627.js": {
+    "file": "_app/immutable/chunks/index-daa95627.js",
     "imports": [
-      "src/routes/chat/+page.svelte"
+      "_index-9fc6de75.js"
     ]
   },
-  ".svelte-kit/generated/nodes/15.js": {
-    "file": "_app/immutable/chunks/15-7c30e5eb.js",
-    "src": ".svelte-kit/generated/nodes/15.js",
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-b8eb3754.js",
+    "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-f8406e2a.js",
-      "src/routes/search/[category]/+page.svelte"
+      "__layout-fca24c55.js",
+      "src/routes/(no-app)/+layout.svelte"
+    ]
+  },
+  "src/routes/(app)/news/culture/maträtter/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/culture/maträtter/_page.svelte-0baed5da.js",
+    "src": "src/routes/(app)/news/culture/maträtter/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-dd5aabba.css"
+    ]
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-3e360c98.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+    ]
+  },
+  "src/routes/(no-app)/search/[category]/+error.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/search/_category_/_error.svelte-743d3334.js",
+    "src": "src/routes/(no-app)/search/[category]/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js",
+      "_stores-a85adf0f.js"
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-9a73cd4e.js",
+    "file": "_app/immutable/chunks/1-38d39bf0.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
   },
-  "__page-c7670bba.js": {
-    "file": "_app/immutable/chunks/_page-c7670bba.js",
+  ".svelte-kit/generated/nodes/24.js": {
+    "file": "_app/immutable/chunks/24-ee984ba8.js",
+    "src": ".svelte-kit/generated/nodes/24.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/memory/+page.svelte"
+    ]
+  },
+  "src/routes/(no-app)/blog/+page.js": {
+    "file": "_app/immutable/modules/pages/(no-app)/blog/_page.js-6d89eca7.js",
+    "src": "src/routes/(no-app)/blog/+page.js",
+    "isEntry": true,
+    "imports": [
+      "__page-80848ead.js"
+    ]
+  },
+  "__layout-fca24c55.js": {
+    "file": "_app/immutable/chunks/_layout-fca24c55.js"
+  },
+  "_singletons-ac740c01.js": {
+    "file": "_app/immutable/chunks/singletons-ac740c01.js",
+    "imports": [
+      "_index-daa95627.js"
+    ]
+  },
+  "src/routes/(app)/news/sport/Valter Ibrahimovic/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/sport/Valter Ibrahimovic/_page.svelte-7fb03df0.js",
+    "src": "src/routes/(app)/news/sport/Valter Ibrahimovic/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-6a24445f.css"
+    ]
+  },
+  ".svelte-kit/generated/nodes/12.js": {
+    "file": "_app/immutable/chunks/12-a37a64df.js",
+    "src": ".svelte-kit/generated/nodes/12.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(app)/news/local/betting/+page.svelte"
+    ]
+  },
+  "src/routes/(no-app)/blog/+layout.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/blog/_layout.svelte-814aa3f7.js",
+    "src": "src/routes/(no-app)/blog/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-c2308f58.css",
+      "_app/immutable/assets/app-2974a3a6.css"
+    ]
+  },
+  "__page-cee31b02.js": {
+    "file": "_app/immutable/chunks/_page-cee31b02.js",
     "imports": [
       "_preload-helper-41c905a7.js"
     ],
@@ -128,339 +595,118 @@
       "src/lib/posts/start.svx"
     ]
   },
-  "src/routes/blog/+page.js": {
-    "file": "_app/immutable/modules/pages/blog/_page.js-4b271f59.js",
-    "src": "src/routes/blog/+page.js",
+  ".svelte-kit/generated/nodes/22.js": {
+    "file": "_app/immutable/chunks/22-2ea015a7.js",
+    "src": ".svelte-kit/generated/nodes/22.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(no-app)/chat/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/21.js": {
+    "file": "_app/immutable/chunks/21-7ffaa7bc.js",
+    "src": ".svelte-kit/generated/nodes/21.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-cee31b02.js",
+      "src/routes/(no-app)/blog/[path]/+page.svelte"
+    ]
+  },
+  "_index-548b888d.js": {
+    "file": "_app/immutable/chunks/index-548b888d.js",
+    "imports": [
+      "_index-9fc6de75.js"
+    ]
+  },
+  "src/routes/(app)/news/sport/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/sport/_page.svelte-bf644da7.js",
+    "src": "src/routes/(app)/news/sport/+page.svelte",
     "isEntry": true,
     "imports": [
-      "__page-80848ead.js"
-    ]
-  },
-  "src/routes/search/[category]/+error.svelte": {
-    "file": "_app/immutable/components/pages/search/_category_/_error.svelte-ed65d55a.js",
-    "src": "src/routes/search/[category]/+error.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js",
-      "_stores-095581b9.js"
-    ]
-  },
-  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-bf8239aa.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js",
-      "_stores-095581b9.js"
-    ]
-  },
-  "src/lib/posts/start.svx": {
-    "file": "_app/immutable/chunks/start-e4f8c956.js",
-    "src": "src/lib/posts/start.svx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-cd6e678a.js",
-    "src": ".svelte-kit/generated/nodes/6.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-80848ead.js",
-      "src/routes/blog/+page.svelte"
-    ]
-  },
-  "__page-f8406e2a.js": {
-    "file": "_app/immutable/chunks/_page-f8406e2a.js",
-    "imports": [
-      "_control-f5b05b5f.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/17.js": {
-    "file": "_app/immutable/chunks/17-0d00d782.js",
-    "src": ".svelte-kit/generated/nodes/17.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/todo/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/10.js": {
-    "file": "_app/immutable/chunks/10-3a934749.js",
-    "src": ".svelte-kit/generated/nodes/10.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/memory/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-59eb9628.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__layout-da46b06b.js",
-      "src/routes/+layout.svelte"
-    ]
-  },
-  "_singletons-f91a23ce.js": {
-    "file": "_app/immutable/chunks/singletons-f91a23ce.js",
-    "imports": [
-      "_index-7c1ede1d.js"
-    ]
-  },
-  "_index-40b5bb4a.js": {
-    "file": "_app/immutable/chunks/index-40b5bb4a.js",
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/14.js": {
-    "file": "_app/immutable/chunks/14-ca0467c6.js",
-    "src": ".svelte-kit/generated/nodes/14.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/search/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/11.js": {
-    "file": "_app/immutable/chunks/11-113f8a49.js",
-    "src": ".svelte-kit/generated/nodes/11.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/photoapp/+page.svelte"
-    ]
-  },
-  "src/lib/posts/blogs.svx": {
-    "file": "_app/immutable/chunks/blogs-ec61d303.js",
-    "src": "src/lib/posts/blogs.svx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  "src/routes/+layout.js": {
-    "file": "_app/immutable/modules/pages/_layout.js-9cbb603b.js",
-    "src": "src/routes/+layout.js",
-    "isEntry": true,
-    "imports": [
-      "__layout-da46b06b.js"
-    ]
-  },
-  "__layout-da46b06b.js": {
-    "file": "_app/immutable/chunks/_layout-da46b06b.js"
-  },
-  "__page-80848ead.js": {
-    "file": "_app/immutable/chunks/_page-80848ead.js"
-  },
-  "_index-7c1ede1d.js": {
-    "file": "_app/immutable/chunks/index-7c1ede1d.js",
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  "src/routes/blog/+layout.svelte": {
-    "file": "_app/immutable/components/pages/blog/_layout.svelte-776ad6f8.js",
-    "src": "src/routes/blog/+layout.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
+      "_index-9fc6de75.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-74ac176e.css"
+      "_app/immutable/assets/_page-df0db7a3.css"
     ]
   },
-  "_preload-helper-41c905a7.js": {
-    "file": "_app/immutable/chunks/preload-helper-41c905a7.js"
-  },
-  "src/routes/search/[category]/+page.svelte": {
-    "file": "_app/immutable/components/pages/search/_category_/_page.svelte-70ad618d.js",
-    "src": "src/routes/search/[category]/+page.svelte",
+  "src/routes/(app)/news/local/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/local/_page.svelte-8b8cf590.js",
+    "src": "src/routes/(app)/news/local/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2bb69101.js"
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-e27a83c3.css"
     ]
   },
-  ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-17c46515.js",
-    "src": ".svelte-kit/generated/nodes/3.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/search/+layout.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/9.js": {
-    "file": "_app/immutable/chunks/9-52090458.js",
-    "src": ".svelte-kit/generated/nodes/9.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/login/+page.svelte"
-    ]
-  },
-  "src/routes/photoapp/+page.svelte": {
-    "file": "_app/immutable/components/pages/photoapp/_page.svelte-aaf19828.js",
-    "src": "src/routes/photoapp/+page.svelte",
+  "src/routes/(app)/news/local/space/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/local/space/_page.svelte-b5a8cbd8.js",
+    "src": "src/routes/(app)/news/local/space/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2bb69101.js"
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-a58f71d2.css"
+    ]
+  },
+  "src/routes/(app)/news/culture/brännboll/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/culture/brännboll/_page.svelte-f51fbbfe.js",
+    "src": "src/routes/(app)/news/culture/brännboll/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-dd5aabba.css"
+    ]
+  },
+  "src/routes/(app)/news/local/wikipedia/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/local/wikipedia/_page.svelte-711c7a30.js",
+    "src": "src/routes/(app)/news/local/wikipedia/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-8e9dd16c.css"
+    ]
+  },
+  "src/routes/(app)/+layout.svelte": {
+    "file": "_app/immutable/components/pages/(app)/_layout.svelte-2aa93b89.js",
+    "src": "src/routes/(app)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js",
+      "_index-daa95627.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-f5fc0750.css",
+      "_app/immutable/assets/app-2974a3a6.css"
+    ]
+  },
+  "src/routes/(no-app)/photoapp/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/photoapp/_page.svelte-18fbc7ff.js",
+    "src": "src/routes/(no-app)/photoapp/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
     ],
     "css": [
       "_app/immutable/assets/_page-14e960a4.css"
     ]
   },
-  ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-9878ec53.js",
-    "src": ".svelte-kit/generated/nodes/4.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/search/[category]/+error.svelte"
-    ]
-  },
-  "src/routes/search/+page.svelte": {
-    "file": "_app/immutable/components/pages/search/_page.svelte-931b820a.js",
-    "src": "src/routes/search/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  "_stores-095581b9.js": {
-    "file": "_app/immutable/chunks/stores-095581b9.js",
-    "imports": [
-      "_index-2bb69101.js",
-      "_singletons-f91a23ce.js"
-    ]
-  },
-  "src/routes/todo/+page.svelte": {
-    "file": "_app/immutable/components/pages/todo/_page.svelte-b3f7fdd9.js",
-    "src": "src/routes/todo/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page-156cb9cb.css"
-    ]
-  },
-  "src/routes/chat/+page.svelte": {
-    "file": "_app/immutable/components/pages/chat/_page.svelte-7803440c.js",
-    "src": "src/routes/chat/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js",
-      "_parse-f0c618df.js",
-      "_singletons-f91a23ce.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-a40dd02c.js",
-    "src": ".svelte-kit/generated/nodes/7.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-c7670bba.js",
-      "src/routes/blog/[path]/+page.svelte"
-    ]
-  },
-  "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-30e3de00.js",
-    "src": "src/routes/+layout.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  "src/routes/blog/+page.svelte": {
-    "file": "_app/immutable/components/pages/blog/_page.svelte-01a9c78b.js",
-    "src": "src/routes/blog/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  "src/routes/login/+page.svelte": {
-    "file": "_app/immutable/components/pages/login/_page.svelte-e69bda5d.js",
-    "src": "src/routes/login/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page-d13e5e96.css"
-    ]
-  },
-  "src/routes/blog/[path]/+page.svelte": {
-    "file": "_app/immutable/components/pages/blog/_path_/_page.svelte-98bf84e6.js",
-    "src": "src/routes/blog/[path]/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  "_parse-f0c618df.js": {
-    "file": "_app/immutable/chunks/parse-f0c618df.js"
-  },
-  "src/lib/posts/post.svx": {
-    "file": "_app/immutable/chunks/post-c90f9997.js",
-    "src": "src/lib/posts/post.svx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  "src/routes/search/+layout.svelte": {
-    "file": "_app/immutable/components/pages/search/_layout.svelte-9acda6de.js",
-    "src": "src/routes/search/+layout.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ]
-  },
-  "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-a2c9553f.js",
-    "src": "src/routes/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page-2dd67c11.css"
-    ]
-  },
-  "_control-f5b05b5f.js": {
-    "file": "_app/immutable/chunks/control-f5b05b5f.js"
-  },
-  "src/routes/scroll/+page.svelte": {
-    "file": "_app/immutable/components/pages/scroll/_page.svelte-a5c4532b.js",
-    "src": "src/routes/scroll/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js",
-      "_index-40b5bb4a.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page-1258dfd5.css"
-    ]
-  },
-  "_index-2bb69101.js": {
-    "file": "_app/immutable/chunks/index-2bb69101.js"
-  },
-  "src/routes/memory/+page.svelte": {
-    "file": "_app/immutable/components/pages/memory/_page.svelte-dfe3fb4d.js",
-    "src": "src/routes/memory/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-2bb69101.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page-dd96f435.css"
-    ]
+  "_index-9fc6de75.js": {
+    "file": "_app/immutable/chunks/index-9fc6de75.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-491ad27e.js",
+    "file": "_app/immutable/start-0244d028.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-2bb69101.js",
-      "_singletons-f91a23ce.js",
+      "_index-9fc6de75.js",
+      "_singletons-ac740c01.js",
       "_preload-helper-41c905a7.js",
       "_control-f5b05b5f.js",
       "_parse-f0c618df.js"
@@ -483,31 +729,146 @@
       ".svelte-kit/generated/nodes/14.js",
       ".svelte-kit/generated/nodes/15.js",
       ".svelte-kit/generated/nodes/16.js",
-      ".svelte-kit/generated/nodes/17.js"
+      ".svelte-kit/generated/nodes/17.js",
+      ".svelte-kit/generated/nodes/18.js",
+      ".svelte-kit/generated/nodes/19.js",
+      ".svelte-kit/generated/nodes/20.js",
+      ".svelte-kit/generated/nodes/21.js",
+      ".svelte-kit/generated/nodes/22.js",
+      ".svelte-kit/generated/nodes/23.js",
+      ".svelte-kit/generated/nodes/24.js",
+      ".svelte-kit/generated/nodes/25.js",
+      ".svelte-kit/generated/nodes/26.js",
+      ".svelte-kit/generated/nodes/27.js",
+      ".svelte-kit/generated/nodes/28.js",
+      ".svelte-kit/generated/nodes/29.js",
+      ".svelte-kit/generated/nodes/30.js",
+      ".svelte-kit/generated/nodes/31.js"
     ]
   },
-  "src/routes/register/+page.svelte": {
-    "file": "_app/immutable/components/pages/register/_page.svelte-69ea20c3.js",
-    "src": "src/routes/register/+page.svelte",
+  "src/routes/(no-app)/register/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/register/_page.svelte-cdf6e837.js",
+    "src": "src/routes/(no-app)/register/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2bb69101.js"
+      "_index-9fc6de75.js"
     ],
     "css": [
       "_app/immutable/assets/_page-c46c56a6.css"
     ]
   },
-  "src/routes/telltale/+page.svelte": {
-    "file": "_app/immutable/components/pages/telltale/_page.svelte-4ba00f1c.js",
-    "src": "src/routes/telltale/+page.svelte",
+  "src/routes/(no-app)/telltale/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/telltale/_page.svelte-5a896006.js",
+    "src": "src/routes/(no-app)/telltale/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2bb69101.js",
-      "_index-7c1ede1d.js",
-      "_index-40b5bb4a.js"
+      "_index-9fc6de75.js",
+      "_stores-9c30d0c6.js",
+      "_index-548b888d.js"
     ],
     "css": [
       "_app/immutable/assets/_page-e52d8411.css"
     ]
+  },
+  "src/routes/(no-app)/todo/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/todo/_page.svelte-edaeb108.js",
+    "src": "src/routes/(no-app)/todo/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-156cb9cb.css"
+    ]
+  },
+  "src/routes/(app)/news/culture/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/culture/_page.svelte-eb4f1084.js",
+    "src": "src/routes/(app)/news/culture/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-e27a83c3.css"
+    ]
+  },
+  "src/routes/(app)/news/local/betting/+page.svelte": {
+    "file": "_app/immutable/components/pages/(app)/news/local/betting/_page.svelte-c4ff1716.js",
+    "src": "src/routes/(app)/news/local/betting/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-a58f71d2.css"
+    ]
+  },
+  "src/routes/(no-app)/login/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/login/_page.svelte-b9810434.js",
+    "src": "src/routes/(no-app)/login/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-d13e5e96.css"
+    ]
+  },
+  "src/routes/(no-app)/chat/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/chat/_page.svelte-8255656e.js",
+    "src": "src/routes/(no-app)/chat/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js",
+      "_parse-f0c618df.js",
+      "_singletons-ac740c01.js",
+      "_stores-9c30d0c6.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-b620710a.css"
+    ]
+  },
+  "src/routes/(no-app)/scroll/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/scroll/_page.svelte-a22ea7b0.js",
+    "src": "src/routes/(no-app)/scroll/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js",
+      "_index-548b888d.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-1258dfd5.css"
+    ]
+  },
+  "src/routes/(no-app)/memory/+page.svelte": {
+    "file": "_app/immutable/components/pages/(no-app)/memory/_page.svelte-c7544aab.js",
+    "src": "src/routes/(no-app)/memory/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-9fc6de75.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-c1ef00a9.css"
+    ]
+  },
+  "src/routes/(app)/news/local/pancakes/+page.css": {
+    "file": "_app/immutable/assets/_page-dd5aabba.css",
+    "src": "src/routes/(app)/news/culture/brännboll/+page.css"
+  },
+  "src/routes/(app)/news/culture/maträtter/+page.css": {
+    "file": "_app/immutable/assets/_page-dd5aabba.css",
+    "src": "src/routes/(app)/news/culture/brännboll/+page.css"
+  },
+  "src/routes/(app)/news/sport/Valter Ibrahimovic/+page.css": {
+    "file": "_app/immutable/assets/_page-6a24445f.css",
+    "src": "src/routes/(app)/news/sport/Noah/+page.css"
+  },
+  "src/routes/(app)/news/local/+page.css": {
+    "file": "_app/immutable/assets/_page-e27a83c3.css",
+    "src": "src/routes/(app)/news/culture/+page.css"
+  },
+  "src/routes/(app)/news/local/space/+page.css": {
+    "file": "_app/immutable/assets/_page-a58f71d2.css",
+    "src": "src/routes/(app)/news/local/betting/+page.css"
   }
 }

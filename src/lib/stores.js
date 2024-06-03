@@ -23,3 +23,26 @@ if (browser) {
                 console.log(value)
         })
 }
+
+/* 
+   We are using a writable store from svelte. We are keeping the store in sync with
+   the localStorage in the browser.
+
+   Read about localStorage here: 
+   https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+   
+*/
+
+/* initialize the story_id to '1' if the story_id has not already been stored */
+const chat = browser ? window?.localStorage.getItem('chat') ?? " " : " "
+/* https://svelte.dev/tutorial/writable-stores */
+export const chat_store = writable(chat)
+
+if (browser) {
+        /* https://svelte.dev/tutorial/auto-subscriptions */
+        chat_store.subscribe((value) => {
+                /* on changes to the story_id_store, update the localStorage in the browser. */
+                window?.localStorage.setItem('chat', value);
+                console.log(value)
+        })
+}

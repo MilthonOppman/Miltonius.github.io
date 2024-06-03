@@ -1,9 +1,13 @@
 ---
-title: Vecka 1
-date: "2024-03-01"
+title: Inlägg 1
+date: "2024-05-06"
 keywords: ["adding tasks", "gallery"]
 ---
 
-Hello, I am _Post One._
+Starten på hemsidan
 
-**Nice to meet you!**
+**Jag har börjat på startskärmen för nyhetshemsidan, där man kan
+välja vilken artikel man vill läsa. Jag har näst intill endast stylat
+just nu och ska börja försöka få till själva hantering av hemsidan.
+Jag vill också få det så att man på ett lätt sätt kan skapa flera artiklar utan
+att det blir massor med kod.**

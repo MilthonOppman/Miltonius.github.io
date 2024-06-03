@@ -8,6 +8,8 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
+		"@skeletonlabs/skeleton": "^2.9.1",
+		"@skeletonlabs/tw-plugin": "^0.4.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
